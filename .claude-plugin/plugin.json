@@ -1,0 +1,22 @@
+{
+  "name": "devflow",
+  "description": "Stack-agnostic plan/build/verify/ship workflow. Detects each project's real toolchain at runtime instead of guessing, so lint, typecheck, and tests run correctly in any repo - Node, Python, Go, Rust, Java, or mixed. Adds auto-lint-on-edit hooks, a hang-guard for watch-mode commands, stack-aware review agents, and a cross-repo ticket flow.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Nouran Mosaad"
+  },
+  "homepage": "https://github.com/NoOourAn/claude-devflow",
+  "repository": "https://github.com/NoOourAn/claude-devflow",
+  "license": "MIT",
+  "keywords": [
+    "workflow",
+    "productivity",
+    "code-review",
+    "testing",
+    "monorepo",
+    "cross-repo",
+    "toolchain-detection",
+    "hooks",
+    "ci"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "devflow",
+  "owner": {
+    "name": "Nouran Mosaad"
+  },
+  "metadata": {
+    "description": "Stack-agnostic plan/build/verify/ship workflow for Claude Code",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "devflow",
+      "source": "./",
+      "description": "Detects each project's real toolchain at runtime so lint, typecheck, and tests run correctly in any repo. Adds auto-lint-on-edit, a hang-guard for watch-mode commands, stack-aware review agents, and a cross-repo ticket flow.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Nouran Mosaad"
+      },
+      "keywords": [
+        "workflow",
+        "productivity",
+        "code-review",
+        "testing",
+        "monorepo",
+        "cross-repo",
+        "toolchain-detection",
+        "hooks"
+      ],
+      "category": "productivity"
+    }
+  ]
+}

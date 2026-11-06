@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+*.log
+
+# never commit QA credentials — they live in ~/.claude/devflow/qa-db.env
+*.env
+qa-db.env
